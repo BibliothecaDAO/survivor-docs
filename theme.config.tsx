@@ -13,6 +13,10 @@ const config: DocsThemeConfig = {
   footer: {
     text: "Loot Survivor Docs",
   },
+  darkMode: true,
+  nextThemes: {
+    defaultTheme: "dark",
+  },
 };
 
 export default config;
