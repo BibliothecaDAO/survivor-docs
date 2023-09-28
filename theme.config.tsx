@@ -2,7 +2,7 @@ import React from "react";
 import { DocsThemeConfig } from "nextra-theme-docs";
 
 const config: DocsThemeConfig = {
-  logo: <span>Loot Survivor 💀</span>,
+  logo: <span style={{ color: "#32CD32" }}>Loot Survivor 💀</span>,
   project: {
     link: "https://github.com/BibliothecaDAO/loot-survivor",
   },
