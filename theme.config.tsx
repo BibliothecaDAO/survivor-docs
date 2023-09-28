@@ -1,18 +1,18 @@
-import React from 'react'
-import { DocsThemeConfig } from 'nextra-theme-docs'
+import React from "react";
+import { DocsThemeConfig } from "nextra-theme-docs";
 
 const config: DocsThemeConfig = {
-  logo: <span>My Project</span>,
+  logo: <span>Loot Survivor 💀</span>,
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+    link: "https://github.com/BibliothecaDAO/loot-survivor",
   },
   chat: {
-    link: 'https://discord.com',
+    link: "https://discord.gg/bibliothecadao",
   },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  docsRepositoryBase: "https://github.com/BibliothecaDAO/survivor-docs",
   footer: {
-    text: 'Nextra Docs Template',
+    text: "Loot Survivor Docs",
   },
-}
+};
 
-export default config
+export default config;
