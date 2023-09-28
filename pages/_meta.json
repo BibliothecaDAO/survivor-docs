@@ -1,7 +1,11 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "index": "Welcome",
+  "start": "Getting Started",
+  "beasts": "Beasts",
+  "stats": "Stats",
+  "items": "Loot Items",
+
+  "contractread": "Game Contract",
   "about": {
     "title": "About",
     "type": "page"
@@ -9,7 +13,7 @@
   "contact": {
     "title": "Contact ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://twitter.com/LootRealms",
     "newWindow": true
   }
 }
