@@ -7,7 +7,7 @@ const config: DocsThemeConfig = {
     link: "https://github.com/BibliothecaDAO/loot-survivor",
   },
   chat: {
-    link: "https://discord.gg/bibliothecadao",
+    link: "https://discord.gg/realmsworld",
   },
   docsRepositoryBase: "https://github.com/BibliothecaDAO/survivor-docs",
   footer: {
