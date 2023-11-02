@@ -1,0 +1,13 @@
+.beast-card {
+  border       : 1px solid #ccc;
+  border-radius: 5px;
+  padding      : 10px;
+  display      : inline-block;
+  width        : 250px;
+  text-align   : center;
+  box-shadow   : 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.beast-info {
+  margin-top: 10px;
+}
