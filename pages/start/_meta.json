@@ -1,4 +1,5 @@
 {
-  "start": "Starknet Wallet",
+  "testnet": "Testnet",
+  "mainnet": "Mainnet",
   "arcadeaccounts": "Arcade Accounts"
 }
