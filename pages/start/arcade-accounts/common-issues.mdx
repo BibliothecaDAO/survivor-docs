@@ -1,5 +1,6 @@
-# Common Issues
+import Image from 'next/image'
 
+# Common Issues
 
 Since the deployment of Arcade Accounts is rather new, and it requires 2 manual txs to happen, we have provided some common issues and solutions below:
 
@@ -10,7 +11,7 @@ On occassion, your account can deploy but the permissions might not be set. To d
 - Go to AA's then Set Permissions
 - Sign the transaction from your main account
 
-<img src="/AA.png" alt="Burners Tab" style={{ height: "400px", width: "750px" }} />
+<Image src="/arcade-accounts/account-tab.png" alt="Arcade Account Tab" width={750} height={400} />
 
 ## I can't see it in my Arcade Accounts
 
@@ -20,7 +21,7 @@ First check the wallet that deployed the account to see how far it got in the pr
 
 These are the usual txs that should appear (in https://voyager.online/):
 
-<img src="/arcade-deploy-txs.png" alt="Deploy TXs" />
+<Image src="/arcade-accounts/arcade-deploy-txs.png" alt="Deploy TXs" width={750} height={400} />
 
 If you see both these txs but no Arcade Account appears then the account has deployed, but it's keys not stored. Use the **Recover Deployed** option to create a new key pair and store it.
 
@@ -32,4 +33,4 @@ In both cases you will need to do the following:
 - Go to AA in Loot Survivor then Recover Undeployed Account
 - Enter your address and recover
 
-<img src="/AA.png" alt="Deploy TXs" />
+<Image src="/arcade-accounts/account-tab.png" alt="Arcade Account Tab" width={750} height={400} />
