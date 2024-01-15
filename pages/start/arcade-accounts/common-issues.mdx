@@ -1,0 +1,35 @@
+# Common Issues
+
+
+Since the deployment of Arcade Accounts is rather new, and it requires 2 manual txs to happen, we have provided some common issues and solutions below:
+
+## My account has deployed but I am getting an error
+
+On occassion, your account can deploy but the permissions might not be set. To do set the permissions if you are trying to deplo an AA, you can do the following:
+
+- Go to AA's then Set Permissions
+- Sign the transaction from your main account
+
+<img src="/AA.png" alt="Burners Tab" style={{ height: "400px", width: "750px" }} />
+
+## I can't see it in my Arcade Accounts
+
+You may have encountered a problem in the deployment process which means the details may not have been properly stored. In any case, this can be recovered:
+
+First check the wallet that deployed the account to see how far it got in the process.
+
+These are the usual txs that should appear (in https://voyager.online/):
+
+<img src="/arcade-deploy-txs.png" alt="Deploy TXs" />
+
+If you see both these txs but no Arcade Account appears then the account has deployed, but it's keys not stored. Use the **Recover Deployed** option to create a new key pair and store it.
+
+If you only see the transfer tx then the account didn't deploy. Here you can use the **Recover Undeployed** to deploy and store the keys.
+
+In both cases you will need to do the following:
+
+- Get your AA address (can be found using voyager or starkscan)
+- Go to AA in Loot Survivor then Recover Undeployed Account
+- Enter your address and recover
+
+<img src="/AA.png" alt="Deploy TXs" />
