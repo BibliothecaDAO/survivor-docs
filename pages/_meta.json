@@ -5,7 +5,7 @@
   "stats": "Stats",
   "items": "Loot Items",
 
-  "contractread": "Game Contract",
+  "contract-read": "Game Contract",
   "about": {
     "title": "About",
     "type": "page"

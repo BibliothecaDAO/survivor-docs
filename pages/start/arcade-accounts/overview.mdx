@@ -1,0 +1,15 @@
+import Image from 'next/image'
+
+# Arcade Accounts
+
+<div style={{ display: 'flex', justifyContent: 'center' }}>
+    <Image src="/arcade-accounts/arcade-image.png" alt="Arcade Account" height={300} width={300} />
+</div>
+
+Arcade Accounts are "burner" accounts that can only execute transactions with a predefined list of permissions.
+
+## How does it work?
+
+The Arcade Account or AA, is deployed by the main account and can only perform certain actions. It works by deploying a pre-funded account amount (0.01 ETH & Game Price * X games to play in LORDS) from your main account to your AA and stores the keys in the browser. Keeping keys in the browser less secure, however, through limitting txs by permissions there is low impact from exploitation.
+
+Arcade Accounts are **free** to create however it will initiate a transfer of 0.001 ETH from your connected wallet to the AA to cover your transaction costs (gas) from normal gameplay.
