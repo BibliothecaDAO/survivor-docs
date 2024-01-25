@@ -1,0 +1,29 @@
+import Image from 'next/image'
+import Link from 'next/link';
+
+# Migrate Account
+
+Loot Survivor has several <Link href="/clients" style={{color: '#32CD32', textDecoration: 'underline'}}>clients</Link>, each having a unique approach to displaying gameplay, whilst still interacting with the original Loot Survivor contract.
+
+We provide a method to transfer your AA between the clients without the need to recover by exporting the Private Keys.
+
+**NOTE**: With usual wallets this would be unsecure, however, Arcade Accounts have strict permissions to limit any misuse of funds other than playing!
+
+## Export Arcade Account Private Key
+
+Exporting the Private Key will copy it to your clipboard. You will then be able to import the key to other applications utilising this component.
+
+<Image src="/arcade-accounts/export-private-key.png" alt="Export Private Key" width={500} height={400} />
+
+## Import Arcade Account
+
+There is a screen within Arcade Accounts to insert your Private Key and integrate your AA.
+
+<Image src="/arcade-accounts/import-account-button.png" alt="Import Account Button" width={500} height={400} />
+
+- Insert Private Key
+- Connect to the Master Account if not already connected
+
+**NOTE**: You must be connected to the Master Account used to create the Arcade Account, you will be made to connect until doing so.
+
+<Image src="/arcade-accounts/import-account-page.png" alt="Import Account Page" width={750} height={400} />
