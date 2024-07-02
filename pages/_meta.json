@@ -4,16 +4,12 @@
   "beasts": "Beasts",
   "stats": "Stats",
   "items": "Loot Items",
-
-  "contract-read": "Game Contract",
-  "about": {
-    "title": "About",
-    "type": "page"
-  },
+  "rewards": "Rewards",
+  "clients": "Clients",
   "contact": {
-    "title": "Contact ↗",
+    "title": "Twitter ↗",
     "type": "page",
-    "href": "https://twitter.com/LootRealms",
+    "href": "https://twitter.com/LootSurvivor",
     "newWindow": true
   }
 }

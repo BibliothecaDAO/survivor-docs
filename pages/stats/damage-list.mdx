@@ -1,6 +1,6 @@
 # Damage Boosts
 
-## Base Damage Calculation
+## Base Calculation
 
 Beast base attack damage and armor is:
 
@@ -12,7 +12,7 @@ If your attack is less than the beast armor then a minimum damage of 4 will be a
 
 > Weak/Fair/Strong gives 50%/100%/150% damage to certain Armor Type.
 
-| Weapon vs Armor | Metal  | Hide   | Cloth  |
+| Weapon vs Armor | `Metal`  | `Hide`  | `Cloth`  |
 | --------------- | ------ | ------ | ------ |
 | `Blade`         | Weak   | Fair   | Strong |
 | `Bludgeon`      | Fair   | Strong | Weak   |
@@ -20,4 +20,11 @@ If your attack is less than the beast armor then a minimum damage of 4 will be a
 
 ## Critical hits
 
-Critical hits which provides a 20-100% damage bonus. At Greatness 20, you may come across a beast with a name prefix such as "Whisper Glow", if this name prefix matches any of your item name prefixes it can achieve critical hits. Critical hits from name boosts provide a 4-7x damage increase. The maximum critical hit chance provided by Luck is, 100% Critical Hit == 100 Luck.
+Luck derives your chances of getting critical hits, providing a 20-100% damage bonus. Criticial hit chance is calculated from `luck / 100`.
+
+## Name match bonus
+
+When beasts are level 19+, they will have name prefixes such as "Whisper Glow". If this name prefix matches any of your item name prefixes (unlocked from greatness 19+) name match bonuses are applied to damage. 
+
+A 20%-100% bonus is applied from matching a name suffix ("Glow"), and a 4-7x bonus from matching a name prefix ("Whisper").
+
