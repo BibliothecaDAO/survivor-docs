@@ -1,5 +1,6 @@
 {
+  "intro": "Intro",
   "testnet": "Testnet",
   "mainnet": "Mainnet",
-  "arcade-accounts": "Arcade Accounts"
+  "tutorial": "Tutorial"
 }

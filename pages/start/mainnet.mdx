@@ -3,42 +3,42 @@ import Link from 'next/link';
 
 # Getting Started On Mainnet
 
-> This is the mainnet version of Loot Survivor. It costs <MainnetGamePrice /> per game (or a daily game using a Golden Token) and requires ETH for gas fees. If you are starting out we highly suggest you practice on [testnet](/start/testnet) for free.
+> This is the mainnet version of Loot Survivor. It costs $3 (<MainnetGamePrice />) to play, along with ETH/STRK to pay for transactions (~$1). We highly reccomend playing your first few games on [Testnet](/start/testnet) for free.
 
-- <MainnetGamePrice /> per game
-- Full bot protection: wait to start
-- Gas paid in ETH
-- Eligible for tournament prizes, LORDS rewards and collectible beasts
+- $3 (<MainnetGamePrice />) per game
+- Over 50% of LORDS allocated to top players
+- Collectible Beast NFTs
+- Uses Verifiable Randomness
+- Leaderboard is global & immutable
+- Requires Starknet Account
 
 ___
 
-1. Get a Starknet Wallet. Download [ArgentX](https://www.argent.xyz/argent-x/) or [Braavos](https://braavos.app/).
+## Onboarding Steps
 
-2. Ensure you have at least <MainnetGamePrice /> and 0.01 ETH in your wallet. 
-    - [Bridge LORDS from ETH to Starknet](https://realms.world/bridge) or [Buy LORDS on Starknet](https://app.avnu.fi/en?tokenFrom=0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7&tokenTo=0x124aeb495b947201f5fac96fd1138e326ad86195b98df6dec9009158a533b49&amount=0.001)
-    - [Bridge ETH to Starknet](https://starkgate.starknet.io/)
+1. Conect a Starknet Account, we recommend using Cartridge Controller for a seamless experience. Loot Survivor also supports Argent and Braavos Accounts.
+    - Select the "Login with Cartridge Controller"
+    
+    <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <img src="/getting-started/cartridge-button.png" alt="Cartridge Button" width="250" height="150" />
+    </div>
 
-3. Ensure your Starknet wallet is on mainnet
+    - Login or Sign Up with your username. If you are signing up, create a pass key using your preffered method to secure your account.
 
-4. Head to [OG client](https://survivor.realms.world/) or any of the <Link href="/clients" style={{color: '#32CD32', textDecoration: 'underline'}}>Alternative Clients</Link>
+    <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <img src="/getting-started/controller-login.png" alt="Cartridge Controller" width="250" height="150" />
+    </div>
 
+2. Now that you are connected to the Cartridge Controller you need some ETH for gas and VRF. If you have ETH on Starknet, simply copy the controller address from step 1. For more info on bridging: https://docs.starknet.io/starkgate/overview/.
 
-5. Connect your wallet
+    <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <img src="/getting-started/get-eth.png" alt="Get ETH" width="250" height="150" />
+    </div>
 
-6. Create an [Arcade Account](/start/arcade-accounts/overview)
-    - Initiates a transfer of 0.01 ETH to cover gas and a custom amount of LORDS based on the number of games you want to prefund with
-    - Initiates three contract approvals
+3. Finally, the token of the this Arcade Machine is $LORDS. There is a link to AVNU for purchasing LORDS.
 
-    > **Do not refresh or close the browser while these transactions are processing as it could lead to the loss of your funds**
+    <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <img src="/getting-started/get-lords.png" alt="Get LORDS" width="250" height="150" />
+    </div>
 
-7. Connect your new Arcade Account
-
-8. Choose your weapon and name your Adventurer
-
-9. Press 'PLAY WITH LORDS TOKENS' which will spend <MainnetGamePrice /> LORDS
-
-10. Wait for the countdown for your game to begin (~5 but varies mins)
-
-> **We recommend setting a timer on your phone to ensure you don't miss your game and lose your LORDS**
-
-Step 11: Play
+4. You are ready to go, enjoy playing without needing to sign transactions!

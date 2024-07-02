@@ -1,7 +1,4 @@
 {
-  "beasts": "Beast Types",
-
-  "magicbeasts": "Magical",
-  "hunterbeasts": "Hunter",
-  "brutebeasts": "Brute"
+  "beasts": "Beasts",
+  "types": "Types"
 }

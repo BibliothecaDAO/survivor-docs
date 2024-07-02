@@ -1,7 +1,7 @@
 {
-  "name": "nextra-docs-template",
+  "name": "LootSurvivorDocs",
   "version": "0.0.1",
-  "description": "Nextra docs template",
+  "description": "Documentation for the Loot Survivor game",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
