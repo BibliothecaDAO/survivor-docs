@@ -1,0 +1,52 @@
+# Combat
+
+There are a variety of factors that affect the outcome of combat between adventurers and beasts. Weapon power calculations apply the following order of operations:
+
+- Base attack calculation
+- Elemental adjustments
+
+The following bonuses are then added using power after elemental adjustments:
+
+- Strength bonus *(None for beasts)*
+- Critical hit bonus
+- Name match bonus
+
+Armor power is calculated as follows:
+
+- Base armor calculation
+- Jewelry bonus *(None for beasts)*
+
+Finally, we negate armor power from attack power to get the net damage calculation. 
+
+`Weapon power - Armor power = Damage`
+
+## Base Calculation
+
+The base calculation for the power of adventurer weapons and armor:
+
+`Item Greatness * (6 - Tier)`
+
+The calculations for beast power utilises the same formula, but substitutes Level for Greatness:
+
+`Beast Level * (6 - Beast Tier)`
+
+## Elemental Adjustments
+
+> Weak/Fair/Strong gives 50%/100%/150% damage to certain Armor Type.
+
+| Weapon vs Armor | `Metal`  | `Hide`  | `Cloth`  |
+| --------------- | ------ | ------ | ------ |
+| `Blade`         | Weak   | Fair   | Strong |
+| `Bludgeon`      | Fair   | Strong | Weak   |
+| `Magic`         | Strong | Weak   | Fair   |
+
+## Critical hits
+
+Increasing Luck increases your chances of getting critical hits where the chance is `luck / 100`. In the event of a critical hit, the damage increase is randomly rolled between `20-100%`.
+
+## Name match bonus
+
+When beasts are level 19+, they will have name prefixes such as "Whisper Glow". In combat, if any of these 2 name prefixes match any of your item name prefixes (unlocked from greatness 19+) name match bonuses are applied to damage. 
+
+A `20%-100%` bonus is applied from matching a name suffix, such as "Glow", and a `4-7x` bonus from matching a name prefix, such as "Whisper".
+

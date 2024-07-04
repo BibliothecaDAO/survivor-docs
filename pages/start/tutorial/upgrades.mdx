@@ -1,25 +1,23 @@
+import Link from 'next/link'
+
 ## Leveled up, choose your upgrades!
 
-In Loot Survivor once you get sufficient xp for a level up you will be able to choose your upgrades.
-
-Upgrades can be split up into 3 categories:
+In Loot Survivor once you get sufficient xp for a level up you will be able to choose your upgrades. Upgrades are split into 3 categories:
 
 - Stats
 - Health Potions
 - Items
 
 ### Stats
-
+<br/>
 <div style={{ display: 'flex', justifyContent: 'center' }}>
     <img src="/tutorial/stat-upgrade.png" alt="Stat Upgrade" width="100%" height="150" />
 </div>
 
-Levelling stats is vital in the fight for survival through the game. Depending on the number of levels you gained will depend on how many stat upgrades are available.
-
-Choosing the number of stat upgrades equivalent to the number available will enable you to move to the marketplace.
+Levelling stats is vital in the fight for survival through the game. Depending on the number of levels you gained will depend on how many stat upgrades are available. See stat abilities <Link href="/stats/stats-list" style={{ color: '#FFB000' }}>here</Link>. Choosing the number of stat upgrades equivalent to the number available will enable you to move to the marketplace.
 
 ### Marketplace
-
+<br/>
 <div style={{ display: 'flex', justifyContent: 'center' }}>
     <img src="/tutorial/marketplace.png" alt="Marketplace" width="100%" height="150" />
 </div>
@@ -28,12 +26,13 @@ Now you can optionally choose to spend your gold on potions and items.
 
 #### Potions
 
-Health potions provide 10HP each and can be purchased up to filling your health to its max, you can't carry them! "Fill to max" to quickly buy all you can based on the amount of gold that you have.
+Health potions provide 10HP each and can be purchased up to filling your health to max, you can't carry them! **FILL TO MAX** to quickly buy all you can based on the amount of gold that you have.
 
 #### Loot
 
-The Loot market is randomly selected for each level, clicking on the headings will sort the items by that category.
+The Loot market is randomly selected for each level, the number of items available is `no. level ups * 20`. Click the headings to sort the items by that category.
 
-The price of items is calculated by the following:
+Charisma is an important stat to make the market cheaper. Prices are calculated from: 
 
 `4 * (6 - tier) - charisma`
+
